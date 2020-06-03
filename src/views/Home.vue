@@ -1,15 +1,15 @@
 <template>
   <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
-    <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg" />
+    <!-- <img alt="logo-bento" class="logo" src="@/assets/img/fusion-arc-favicon_package_v0.16/favicon.ico" /> -->
 
-    <a
+    <!-- <a
       rel="noopener"
       class="documentation-link"
       target="_blank"
       href="https://bento-starter.netlify.com/"
       >Documentation →</a
-    >
+    > -->
   </div>
 </template>
 
