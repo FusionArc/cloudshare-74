@@ -57,7 +57,8 @@
         "webpack-bundle-analyzer": "^3.8.0",
         "webpack-merge": "^5.0.9"
     },
-    "bundlesize": [{
+    "bundlesize": [
+        {
             "path": "./dist/js/chunk-vendors*.js",
             "maxSize": "100 kB"
         },
