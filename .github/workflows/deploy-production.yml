@@ -33,7 +33,7 @@ jobs:
       - name: Check bundle size
         run: npm run bundlesize
         env:
-          BUNDLESIZE_GITHUB_TOKEN: ${{ env.BUNDLESIZE_GITHUB_TOKEN }}
+          BUNDLESIZE_GITHUB_TOKEN: ${{ BUNDLESIZE_GITHUB_TOKEN }}
       - name: Upload build
         uses: actions/upload-artifact@master
         with:
