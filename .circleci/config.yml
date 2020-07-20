@@ -28,7 +28,7 @@ jobs:
 
       - persist_to_workspace:
           root: .
-          paths: .
+          paths: ['./']
 
   check-prettier:
     executor: default-executor
@@ -80,7 +80,7 @@ jobs:
           command: npm run build
       - persist_to_workspace:
           root: .
-          paths: .
+          paths: ['./']
 
   check-bundles-sizes:
     executor: default-executor

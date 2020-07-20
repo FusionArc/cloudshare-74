@@ -1,1 +1,10 @@
 dist/
+*.md
+node_modules
+.**
+**.*.json
+*config*
+*.git*
+.circleci
+**/tests/*
+**/img/*

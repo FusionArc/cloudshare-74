@@ -1,4 +1,3 @@
-// Declare root dirname globally
 const path = require('path')
 
 // eslint-disable-next-line no-underscore-dangle
@@ -12,9 +11,10 @@ const environmentConfigurationPath = `./vue-config/config.${
   process.env.NODE_ENV
 }.js`
 
-const environmentConfiguration = fs.existsSync(environmentConfigurationPath)
-  ? require(environmentConfigurationPath) // eslint-disable-line
-  : {}
+const environmentConfiguration = fs.existsSync(environmentConfigurationPath) ?
+    require(environmentConfigurationPath) // eslint-disable-line
+    :
+    {}
 
 const config = merge(defaultConfiguration, environmentConfiguration)
 

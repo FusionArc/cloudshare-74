@@ -17,6 +17,7 @@ yarn-error.log*
 
 # Editor directories and files
 .idea
+.vscode
 .firebase
 firebase-debug.log
 *.suo
@@ -24,3 +25,4 @@ firebase-debug.log
 *.njsproj
 *.sln
 *.sw*
+*.json**
